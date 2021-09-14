@@ -1,10 +1,9 @@
-const express = require('express')
-const app = express()
-const port = process.env.PORT || 3002
+const express = require('express');
+const app = express();
+const port = process.env.PORT || 3002;
 const config = require('./config');
 console.log(config);
-const path = require('path')
-app.use('/static', express.static(path.join(__dirname, 'public')))
+
 
 var MongoClient = require('mongodb').MongoClient;
 
