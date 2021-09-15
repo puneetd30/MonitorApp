@@ -6,6 +6,9 @@ Every Registered app has its own collection of ping responses.
 
 ## Run local
 In config.js, uncomment the localhost one for running locally
+
+Use npm install to download all dependencies
+
 Use npm start for local run
 
 ## For docker image
